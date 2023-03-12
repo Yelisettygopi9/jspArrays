@@ -14,6 +14,7 @@ public class MergeArrays {
 		int c[]=mergeArray(a,b);
 		displayArray(c);
 		
+		
 	}
 
 
@@ -46,6 +47,7 @@ public class MergeArrays {
 		for (int i = 0; i < ar.length; i++) {
 			ar[i]=sc.nextInt();
 		}
+		sc.close();
 		return ar;
 	}
 	
